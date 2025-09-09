@@ -53,7 +53,18 @@ button i {
 }
 
 .imagens {
-    width: 100dvw;
+    width: 80dvw;
     height: auto;
-    display: column;
+    display: columns;
+    columns: 5;
+}
+
+.imagens img {
+    width: 100%;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
