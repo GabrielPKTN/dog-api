@@ -11,7 +11,7 @@ body {
     height: 100dvh;
     display: flex;
     justify-content: center;
-
+    background-color: bisque;
     font-family:  'Rubik', sans-serif;
 }
 
@@ -29,17 +29,18 @@ main h1 i {
 
 input {
     border-radius: 5px;
-    border: solid rgb(219, 219, 219) 1px;
+    border: none;
     height: 20px;
+    
 }
 
 button {
     border-radius: 5px;
-    border: solid rgb(219, 219, 219) 1px;
+    border: solid rgba(219, 219, 219, 0) 1px;
     padding: 2px;
     font-family:  'Rubik', sans-serif;
     font-weight: 600;
-    background-color: white;
+    background-color: bisque;
     cursor: pointer;
     transition: transform 0.1s ease-in-out;
 }
@@ -62,6 +63,9 @@ button i {
 .imagens img {
     width: 100%;
     animation: fadeIn 1s ease-out forwards;
+    border: solid 2px rgba(179, 179, 179, 0.466);
+    border-radius: 10px;
+    
 }
 
 @keyframes fadeIn {
